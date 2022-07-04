@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .span {
     color: darkorange
 }
@@ -19,6 +23,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 
 }
 
@@ -45,4 +50,34 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 5%;
+}
+
+.experiences {
+    box-shadow: 10px -10px 40px teal;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 8%;
+    border-radius: 5px;
+
+}
+
+.experience-area {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+
+#full-stake-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid purple;
+}
+
+footer p {
+    text-align: center;
 }
